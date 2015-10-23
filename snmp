@@ -1,0 +1,2 @@
+
+./check_snmp -H 192.168.88.252 -C wttro -o ifOperStatus.10001 -r 1 -m RFC1213-MIB
