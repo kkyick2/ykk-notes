@@ -1,0 +1,16 @@
+### git setup
+
+sudo apt-get install git
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+
+### dir to target dir
+
+1/ Open project in github
+2/ At code server
+git init
+git add .
+git commit -m "Initial Commit"
+git commit -m "Initial Commit" file
+git remote add origin https://github.com/kkyick2/xxxxxx.git
+git push origin master
