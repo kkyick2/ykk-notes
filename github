@@ -10,7 +10,13 @@ git config --global user.email "email_id"
 2/ At code server
 git init
 git add .
-git commit -m "Initial Commit"
-git commit -m "Initial Commit" file
+git commit -m "2018xxxx"
+git commit -m "2018xxxx" file
+3/ create repo on github
+4/ add to github use cmd
 git remote add origin https://github.com/kkyick2/xxxxxx.git
 git push origin master
+
+------------------
+git config --list
+git status
