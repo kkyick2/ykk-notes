@@ -1,22 +1,26 @@
 ### git setup
-
 sudo apt-get install git
 git config --global user.name "user_name"
 git config --global user.email "email_id"
 
-### dir to target dir
+### show status
+git config --list
+git status
 
-1/ Open project in github
-2/ At code server
+### Push repo to github
+1/ Open repo in github "testproject"
+2/ create project dir
+mkdir testproject
+cd testproject
+
+2/ init repo and add, commit
 git init
 git add .
 git commit -m "2018xxxx"
 git commit -m "2018xxxx" file
-3/ create repo on github
-4/ add to github use cmd
-git remote add origin https://github.com/kkyick2/xxxxxx.git
-git push origin master
 
-------------------
-git config --list
-git status
+3/ push files to github
+git remote add origin https://github.com/kkyick2/xxxxxx.git
+git push -u origin master
+
+
